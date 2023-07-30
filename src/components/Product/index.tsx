@@ -16,6 +16,7 @@ function Product({ product }: { product: ProductType }) {
       return
     }
     setError(false)
+    setSelectedSize(null)
     addToCart(product, selectedSize)
   }
   return (
